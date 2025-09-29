@@ -3,75 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Mini Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
-      padding: 20px;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background: white;
-      box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    }
-    td {
-      padding: 20px;
-      border: 1px solid #ccc;
-      vertical-align: top;
-    }
-    h1 {
-      text-align: center;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-    input, textarea {
-      margin: 8px 0;
-      padding: 8px;
-      border: 1px solid #aaa;
-      border-radius: 4px;
-    }
-    button {
-      padding: 10px;
-      background-color: #007BFF;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #0056b3;
-    }
-  </style>
+  <title>My Personal Homepage</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to My WEEK 3 PROJECT BOSS!</h1>
 
-  <table>
-    <tr>
-      <td>
-        <h2>About Me</h2>
-        <p>Hello! This is my mini page built using HTML!</p>
-      </td>
-      <td>
-        <h2>Contact Me</h2>
-        <form action="https://formspree.io/f/mldpjowv" method="POST">
-          <label>Your Name:</label>
-          <input type="text" name="name" required>
+  <header>
+    <h1>WELCOME TO MY HOME PAGE</h1>
+  </header>
 
-          <label>Your Email:</label>
-          <input type="email" name="email" required>
+  <section class="intro-card">
+    <img src="myphoto.jpg" alt="My Profile Picture" class="profile-img">
+    <p>
+      Hello! My name is <strong>Jan Rey C. Maranan</strong>, and this is my personal homepage built with HTML 
+     and CSS     </p>
+  </section>
 
-          <label>Your Message:</label>
-          <textarea name="message" rows="4" required></textarea>
+  <section class="card">
+    <h2>About Me</h2>
+    <p>
+      I enjoy listening to music, playing online games, and learning new skills. I’m currently a student 
+      exploring web development and programming!
+    </p>
+  </section>
 
-          <button type="submit">Send Message</button>
-        </form>
-      </td>
-    </tr>
-  </table>
+  <section class="card">
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>🎮 Playing Online Games</li>
+      <li>😴 Sleeping</li>
+      <li>🍿 Watching Movies</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Find Me Online</h2>
+    <p>Check out my <a href="#">GitHub</a> for more projects!</p>
+  </section>
+
 </body>
 </html>
