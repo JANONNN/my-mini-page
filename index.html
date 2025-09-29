@@ -1,45 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Personal Homepage</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <header>
-    <h1>WELCOME TO MY HOME PAGE</h1>
+    <h1>WELCOME TO MY HOMEPAGE</h1>
   </header>
 
-  <section class="intro-card">
-    <img src="myphoto.jpg" alt="My Profile Picture" class="profile-img">
-    <p>
-      Hello! My name is <strong>Jan Rey C. Maranan</strong>, and this is my personal homepage built with HTML 
-     and CSS     </p>
-  </section>
+  <main class="container">
+    <!-- Profile Section -->
+    <section class="profile-section">
+      <div class="profile-card">
+        <img src="myphoto.jpg" alt="My Photo" class="profile-img" />
+        <div class="intro">
+          <h2>Hello! I'm Jan Rey</h2>
+          <p>
+            Hi, my name is <strong>Jan Rey Maranan</strong>. and this is my personal homepage built with HTML 
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <section class="card">
-    <h2>About Me</h2>
-    <p>
-      I enjoy listening to music, playing online games, and learning new skills. I’m currently a student 
-      exploring web development and programming!
-    </p>
-  </section>
+    <!-- Info Section -->
+    <section class="info-grid">
+      <div class="info-card" id="about">
+        <h3>About Me</h3>
+        <p>
+           I enjoy playing Online games, Driving, Sleeping, and Learning new things. Currently a Student learning to be the best
+      </div>
 
-  <section class="card">
-    <h2>My Hobbies</h2>
-    <ul>
-      <li>🎮 Playing Online Games</li>
-      <li>😴 Sleeping</li>
-      <li>🍿 Watching Movies</li>
-    </ul>
-  </section>
+      <div class="info-card" id="hobbies">
+        <h3>My Hobbies</h3>
+        <ul>
+          <li>💤 Sleeping</li>
+          <li>🎮 Playing Online Games</li>
+          <li>🍿 Watching Movies</li>
+        </ul>
+      </div>
 
-  <section class="card">
-    <h2>Find Me Online</h2>
-    <p>Check out my <a href="#">GitHub</a> for more projects!</p>
-  </section>
+      <div class="info-card" id="contact">
+        <h3>Find Me Online</h3>
+        <p>Check out my <a href="https://github.com/JANONNN/my-mini-page">GitHub</a> 💻</p>
+      </div>
+    </section>
+  </main>
 
+  <footer>
+    <p>© 2025 Jan Rey Maranan — Built with 🧡 using HTML & CSS</p>
+  </footer>
 </body>
 </html>
