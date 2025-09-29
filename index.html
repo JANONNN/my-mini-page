@@ -3,54 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Personal Homepage</title>
+  <title>Welcome to My Homepage</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>WELCOME TO MY HOMEPAGE</h1>
+  <header class="main-header">
+    <h1>Welcome to My Homepage</h1>
   </header>
 
-  <main class="container">
-    <!-- Profile Section -->
-    <section class="profile-section">
-      <div class="profile-card">
-        <img src="myphoto.jpg" alt="My Photo" class="profile-img" />
-        <div class="intro">
-          <h2>Hello! I'm Jan Rey</h2>
-          <p>
-            Hi, my name is <strong>Jan Rey Maranan</strong>. And this is my personal homepage built with HTML 
-          </p>
-        </div>
+  <!-- ABOUT ME SECTION -->
+  <section class="card about">
+    <div class="content">
+      <img src="myphoto.jpg" alt="My Photo" class="profile-img" />
+      <div>
+        <h2>About Me</h2>
+        <p>Hey! I’m <strong>Jan Rey Maranan</strong>, and I’m 19 years old. I’m currently studying at <strong>New Era University</strong>, and I’m happily married 💍.</p>
+        <p>My hometown is in <strong>Quezon Province</strong>, and I have a lovely dog 🐶 that makes life brighter every day.</p>
+        <p>I enjoy learning new things, exploring technology, and designing web pages like this one. I’m always eager to improve and discover something new with every project I build.</p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Info Section -->
-    <section class="info-grid">
-      <div class="info-card" id="about">
-        <h3>About Me</h3>
-        <p>
-           I enjoy playing Online games, Driving, Sleeping, and Learning new things. Currently a Student learning to be the best
-      </div>
+  <!-- HOBBIES SECTION -->
+  <section class="card">
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>🚗 Driving</li>
+      <li>📚 Learning new things</li>
+      <li>😴 Sleeping</li>
+      <li>🎮 Playing online games</li>
+    </ul>
+  </section>
 
-      <div class="info-card" id="hobbies">
-        <h3>My Hobbies</h3>
-        <ul>
-          <li>💤 Sleeping</li>
-          <li>🎮 Playing Online Games</li>
-          <li>🍿 Watching Movies</li>
-        </ul>
-      </div>
+  <!-- FUN FACTS SECTION -->
+  <section class="card">
+    <h2>Fun Facts</h2>
+    <ul>
+      <li>🚘 I learned to drive when I was only 13 years old!</li>
+      <li>🐶 I love dogs and treat mine like family.</li>
+      <li>💡 I enjoy exploring new tech and web designs.</li>
+    </ul>
+  </section>
 
-      <div class="info-card" id="contact">
-        <h3>Find Me Online</h3>
-        <p>Check out my <a href="https://github.com/JANONNN/my-mini-page">GitHub</a> 💻</p>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Jan Rey Maranan — Built with 🧡 using HTML & CSS</p>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Check out my projects on <a href="#" target="_blank">GitHub</a> 😎</p>
   </footer>
 </body>
 </html>
